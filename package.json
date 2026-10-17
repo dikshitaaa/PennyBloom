@@ -1,11 +1,27 @@
 {
+  "name": "expense-tracker-pro-auth",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.20.0",
     "lucide-react": "^1.29.0",
+    "react": "^18.3.1", 
+    "react-dom": "^18.3.1",
     "react-icons": "^5.7.0",
     "react-router-dom": "^7.18.3",
     "recharts": "^3.10.1",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
   }
 }
