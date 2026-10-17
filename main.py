@@ -29,9 +29,13 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 # ---------------- CORS ----------------
+# ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # <-- Yahan "*" kar dein taaki Vercel se request aane par block na ho
+    allow_origins=[
+        "http://localhost:5173",             # Local testing ke liye
+        "https://penny-bloom-six.vercel.app" # Aapki live website ka URL
+    ], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
