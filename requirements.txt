@@ -88,3 +88,9 @@ waitress==3.0.2
 websockets==16.0
 Werkzeug==3.1.8
 WTForms==3.2.2
+fastapi
+uvicorn
+sqlalchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
