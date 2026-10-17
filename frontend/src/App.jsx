@@ -2,7 +2,7 @@ import { useState, useEffect, useLayoutEffect, useRef } from "react";
 import "./App.css";
 import WelcomePage from "./WelcomePage";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://pennybloom-1.onrender.com"; 
 
 // Coins visible inside the piggy bank: [x% , row (0 = bottom, 1 = top), rotation]
 const JAR_COINS = [

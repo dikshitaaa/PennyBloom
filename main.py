@@ -28,10 +28,10 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 # ---------------- CORS ----------------
+# ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
-    allow_origin_regex=r"http://(localhost|127\.0\.0\.1):\d+",
+    allow_origins=["*"],  # <-- Yahan "*" kar dein taaki Vercel se request aane par block na ho
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
