@@ -128,11 +128,6 @@ That's why there's a **smiling piggy bank** instead of a **chart**.
 ## 🛠️ Tech Stack
 
 ### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
 - **React 18** — Component-based UI
 - **Vite** — Lightning-fast build tool
 - **Pure CSS3** — Custom animations, no frameworks
@@ -141,10 +136,6 @@ That's why there's a **smiling piggy bank** instead of a **chart**.
 - **Web Audio API** — Coin sound synthesis
 
 ### Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-
 - **FastAPI** — Modern Python web framework
 - **JWT Authentication** — Secure token-based auth
 - **SQLAlchemy** — Database ORM
@@ -155,55 +146,22 @@ That's why there's a **smiling piggy bank** instead of a **chart**.
 ## 🚀 Getting Started
 
 ### Prerequisites
-```bash
-Node.js v16+
-npm or yarn
-Python 3.8+ (for backend)
-🎨 Frontend Setup
-1. Clone the repository
+- Node.js v16+
+- npm or yarn
+- Python 3.8+ (for backend)
 
-bash
+### 🎨 Frontend Setup
+
+1. **Clone the repository**
+```bash
 git clone https://github.com/dikshitaaa/expense-tracker.git
 cd expense-tracker/frontend
-2. Install dependencies
 
-bash
-npm install
-3. Start the dev server
+---
 
-bash
-npm run dev
-4. Open in your browser
+## 📁 Project Structure
 
-text
-http://localhost:5173
-⚙️ Backend Setup
-1. Navigate to root folder
-
-bash
-cd expense-tracker
-2. Create virtual environment
-
-bash
-python -m venv venv
-
-# Activate it:
-source venv/bin/activate       # Mac/Linux
-venv\Scripts\activate          # Windows
-3. Install dependencies
-
-bash
-pip install fastapi uvicorn sqlalchemy python-jose[cryptography] passlib[bcrypt] python-multipart
-4. Start the server
-
-bash
-uvicorn main:app --reload --port 8000
-5. API is now running at
-
-text
-http://127.0.0.1:8000
-📁 Project Structure
-text
+```text
 expense-tracker/
 │
 ├── frontend/
@@ -233,37 +191,3 @@ expense-tracker/
 │
 ├── .gitignore                   # Root git ignore
 └── README.md                    # You are here
-🔐 API Endpoints
-Method	Endpoint	Description
-GET	/	Health check
-POST	/auth/register	Create new account
-POST	/auth/login	Login with credentials
-💡 What I Learned Building This
-🎨 CSS can do more than you think — the piggy bank is 100% CSS, no images
-
-🎯 Micro-interactions matter — small details create big impressions
-
-🌊 Motion should be meaningful — every animation tells a story
-
-💗 Emotion beats features — users remember how it made them feel
-
-⚡ Performance matters — using requestAnimationFrame and will-change
-
-🔒 Security — JWT tokens, password hashing, CORS
-
-🚧 Roadmap
-□ 📊 Expense dashboard with beautiful charts
-□ 🎯 Goal tracking with animated progress bars
-□ 🌙 Dark mode with smooth transitions
-□ 📱 Mobile app (React Native)
-□ 🏆 Achievement system with rewards
-□ 🎨 Theme customization
-<div align="center">
-⭐ If PennyBloom made you smile, give it a star! ⭐
-Money management doesn't have to be boring.
-Let's make it beautiful, one pixel at a time.
-
-
-Made with 🐷, ☕, and a lot of CSS
-
-</div> ```
